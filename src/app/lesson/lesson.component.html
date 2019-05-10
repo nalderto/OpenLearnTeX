@@ -1,0 +1,17 @@
+<mat-grid-list cols="2" rowHeight="100vh">
+  <mat-grid-tile>
+    <div class="content_container" [innerHTML]="lessonContent | keepHtml">
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile class="maxHeight">
+    <ngx-codemirror #editor [style.width.%]="100" [style.height.%]="100" [options]="{
+        lineNumbers: true,
+        theme: 'material',
+        mode: 'stex'
+        }"></ngx-codemirror>
+  </mat-grid-tile>
+    <button class="check_button" mat-raised-button color="primary" (click)="this.checkSolution()">
+      Check &gt;
+    </button>
+
+</mat-grid-list>

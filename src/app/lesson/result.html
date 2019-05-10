@@ -1,0 +1,21 @@
+<h1 mat-dialog-title>{{ this.message }}</h1>
+<div mat-dialog-content>
+  <mat-spinner *ngIf="this.loading"
+    style="margin:0 auto;"
+    color="accent"
+  ></mat-spinner>
+    <div *ngIf="passed; then success else failure">
+    </div>
+    <ng-template #success>
+      <button mat-dialog-close mat-raised-button
+        class="success_button"
+        [routerLink]="['/']"
+        style="margin-right:10px; color:white"
+        >{{this.submessage}}</button>
+      <button mat-dialog-close mat-raised-button color="accent">Close</button>
+
+    </ng-template>
+    <ng-template #failure>
+      <button mat-dialog-close mat-raised-button color="accent">{{this.submessage}}</button>
+    </ng-template>
+</div>

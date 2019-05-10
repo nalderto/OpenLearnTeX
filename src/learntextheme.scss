@@ -1,0 +1,33 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$learntextheme-primary: mat-palette($mat-blue, 700);
+$learntextheme-accent: mat-palette($mat-blue-grey, 200);
+$learntextheme-warn: mat-palette($mat-yellow);
+$learntextheme-foreground: mat-palette($mat-grey, 700);
+$learntextheme-background: mat-palette($mat-grey, 100);
+/*
+$learntextheme: mat-light-theme(
+  $learntextheme-primary,
+  $learntextheme-accent,
+  $learntextheme-warn
+  );*/
+
+$learntextheme: (
+  primary: $learntextheme-primary,
+  accent: $learntextheme-accent,
+  warn: $learntextheme-warn,
+  foreground: $learntextheme-foreground,
+  background: $learntextheme-background,
+);
+.mat-menu-panel{
+  background-color: 'red' !important;
+}
+
+mat-card{
+}
+.fakeLink{
+  cursor: pointer;
+}
+
+@include angular-material-theme($learntextheme);

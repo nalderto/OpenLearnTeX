@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="LearnTeX_Favicon.svg"
+   inkscape:export-filename="/home/noah/Documents/LearnTeX/src/assets/images/LearnTex_Logo_Alt.PNG"
+   inkscape:export-xdpi="66.040001"
+   inkscape:export-ydpi="66.040001">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient841"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#3273dc;stop-opacity:1;"
+         offset="0"
+         id="stop839" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1031287"
+     inkscape:cx="173.23111"
+     inkscape:cy="742.47808"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <circle
+       style="fill:#0275d8;fill-opacity:1;stroke:#1d69ab;stroke-width:0.37384573;stroke-opacity:1"
+       id="path20"
+       cx="122.06236"
+       cy="93.389656"
+       r="49.813076"
+       inkscape:export-xdpi="66.040001"
+       inkscape:export-ydpi="66.040001" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot847"
+       style="font-style:normal;font-weight:normal;font-size:46.05241394px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(1.5339404,0,0,1.2394648,14.71891,-88.700608)"><flowRegion
+         id="flowRegion849"
+         style="font-size:46.05241394px;fill:#ffffff;fill-opacity:1"><rect
+           id="rect851"
+           width="341.43155"
+           height="145.46196"
+           x="46.972092"
+           y="114.38744"
+           style="font-size:46.05241394px;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara853"
+         style="font-size:46.05241394px;fill:#ffffff">L</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.48330307px;line-height:1.25;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.48713136"
+       x="125.99849"
+       y="119.19342"
+       id="text865"
+       transform="scale(0.95523039,1.0468679)"><tspan
+         sodipodi:role="line"
+         id="tspan863"
+         x="125.99849"
+         y="119.19342"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.19761658px;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:1.48713136">T</tspan></text>
+  </g>
+</svg>

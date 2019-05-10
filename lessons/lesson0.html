@@ -1,0 +1,92 @@
+<h1>Lesson 0: Preamble</h1>
+<ul>
+  <li><code>\documentclass{article}</code> specifies the type of document that is going to be created.  The area between the <code>\documentclass{...}</code> and the <code>\begin{document}</code> is know as the <em>preamble</em>.  In this case, it is article, which is used of scientific journals, presentations, short reports, etc.  Other document types are shown in the table below:  </li>
+</ul>
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Document Class</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>article</td>
+      <td>Articles in scientific journals, presentations, short reports, program documentation, invitations, …</td>
+    </tr>
+    <tr>
+      <td>report</td>
+      <td>Longer reports containing several chapters, small books, thesis, …</td>
+    </tr>
+    <tr>
+      <td>book</td>
+      <td>Real books.</td>
+    </tr>
+    <tr>
+      <td>slides</td>
+      <td>Slides with big sans serif letters.</td>
+    </tr>
+    <tr>
+      <td>letter</td>
+      <td>Writing letters</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+  <li>
+    <p><code>\usepackage[utf8]{inputenc}</code> imports the inputenc package.  Natively, LaTeX uses only ASCII characters.  Using this package allows LaTeX to use Unicode (UTF8) character encodings.  To simplify things, it allows LaTeX to utilized different types of characters, like Greek letters.  This is just like using <code>import</code> in Java to use a different library.  There are many different packages for LaTeX to extend its functionality, like colored text and graphics.  To import other packages, use the format <code>\usepackage[options]{package}</code>.</p>
+  </li>
+  <li>
+    <p>The <em>top matter</em> includes the title, author, and date.  These fields are used to store information about the document.  This is useful for allowing LaTeX to automatically generate a title header for your document.  </p>
+  </li>
+  <li>
+    <p><code>\begin{document}</code> and <code>\end{document}</code> is where all the document contents are located.  The information you type into your document will be stored between these two tags.  </p>
+  </li>
+</ul>
+<h3 id="top_matter">Top Matter</h3>
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Command</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Title</td>
+      <td><code>\title{...}</code></td>
+    </tr>
+    <tr>
+      <td>Author</td>
+      <td><code>\author{...}</code></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td><code>\date{...}</code></td>
+    </tr>
+  </tbody>
+</table>
+<h3 id="title">Title</h3>
+<ul>
+  <li><code>\maketitle</code> creates a title for document with the project title, author name, and date.</li>
+</ul>
+<h3 id="sections">Sections</h3>
+<p>There are several types of section headers to choose from.  Replace the "..." with your desired section title.</p>
+<ul>
+  <li><code>\section{...}</code></li>
+  <li><code>\subsection{...}</code> </li>
+  <li><code>\subsubsection{...}</code></li>
+  <li><code>\paragraph{...}</code></li>
+  <li><code>\subparagraph{...}</code> <br/><img src="https://user-images.githubusercontent.com/25762130/55272391-52d67500-5292-11e9-8417-0283b656a58f.png" alt="Section Types"></li>
+</ul>
+<br/><br/> 
+<h2>TODO:</h2>
+<p>Make a document with:</p>
+<ul>
+  <li>Class ‘article’</li>
+  <li>Title ‘Lesson 0’</li>
+  <li>Author 'student'
+  <li> The date 'Dec 31 1969'.</li>
+  <li>Include a section titled ‘Greeting’ containing the content ‘Hello World!’ </li>
+</ul>
+<br/><br/>

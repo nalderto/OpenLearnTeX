@@ -1,0 +1,38 @@
+.content_container {
+  overflow-y: scroll !important;
+  height: 93.5vh;
+  width:50%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  position: fixed;
+  bottom: 4px;
+}
+
+.check_button {
+  position:absolute;
+  margin-top: 0.5%;
+  bottom: 55px;
+  height: 40px;
+  width: 25%;
+  right: 0;
+}
+.lesson_number {
+  float:right;
+}
+.mat-spinner {
+  height: 100%;
+}
+::ng-deep .failure {
+  border: 5px solid #ff4444 !important;
+}
+::ng-deep .success {
+  border: 5px solid #00C851 !important;
+}
+.success_button {
+  background-color: #00C851;
+}
+
+.maxHeight {
+  max-height: 90vh;
+}

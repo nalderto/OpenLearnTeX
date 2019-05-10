@@ -1,0 +1,45 @@
+<div *ngIf="user; then authenticated else guest">
+        <!-- template will replace this div -->
+</div>
+
+<!-- User NOT logged in -->
+<ng-template #guest>
+  <mat-grid-list cols="1" rowHeight="10vh">
+    <mat-grid-tile rowspan="4">
+      <img src="../../assets/images/LearnTeX_Logo_Alt.svg" height="200" alt="">
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <h3>LearnTeX is an interactive tool to teach anyone the typesetting system LaTeX. With LearnTeX, you can start creating clean, beautiful, and organized documents in no time</h3>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <h3>Get started by signing in with Google:</h3>
+    </mat-grid-tile>
+    <mat-grid-tile>
+
+      <button id="home_google_button" mat-raised-button color="primary" (click)="auth.googleSignin()">
+        <img src="../../../assets/images/google.svg" height="75%">
+        Sign In with Google
+      </button>
+
+
+    </mat-grid-tile>
+  </mat-grid-list>
+</ng-template>
+
+
+<!-- User logged in -->
+<ng-template #authenticated>
+  <div *ngIf="user">
+    <mat-grid-list cols="3" rowHeight="30vh">
+      <mat-grid-tile *ngFor="let lesson of lessons | async">
+        <mat-card [class.passed_lesson]="hasPassed(lesson.number.substring(7))" class="fakeLink" [routerLink]="['lesson']" [queryParams]="{number: lesson.number.substring(7)}">
+          <mat-card-header>
+            <mat-card-title>{{lesson.title}}</mat-card-title>
+            <mat-card-subtitle>{{lesson.number}}</mat-card-subtitle>
+            <img mat-card-sm-image *ngIf="hasPassed(lesson.number.substring(7))" src="../../../assets/images/check.svg">
+          </mat-card-header>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+    </div>
+</ng-template>

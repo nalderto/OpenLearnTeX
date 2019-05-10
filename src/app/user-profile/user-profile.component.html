@@ -1,0 +1,25 @@
+<div *ngIf="user; then authenticated else guest">
+        <!-- template will replace this div -->
+</div>
+
+<!-- User NOT logged in -->
+<ng-template #guest>
+    
+    <button mat-button color="primary" (click)="auth.googleSignin()">
+        Sign In With Google
+    </button>
+
+</ng-template>
+
+
+<!-- User logged in -->
+<ng-template #authenticated>
+  <div *ngIf="user">
+    <button mat-button color="primary" [matMenuTriggerFor]="menu">{{ user.displayName }}</button>
+        <img class="profile_pic" height="35" [src]="user.photoURL">
+        <!--<p>UID: {{ user.uid }}</p>-->
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item  (click)="auth.signOut()">Logout</button>
+        </mat-menu>
+    </div>
+</ng-template>
